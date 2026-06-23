@@ -132,4 +132,4 @@ async def clscmd(ctx):
     await ctx.send(f"Hey {ctx.author.mention} here are my commands:\n[1] `!coplay 'your song name or link'` plays or adds your song to the queue\n[2]`!coqueue` to display what songs are in the queue\n[3]`!coleave` to make me leave the VC\n[4]`!coskip` to skip song that's currently playing")
 
 
-columbina.run(TOKEN)
+columbina.run(TOKEN, reconnect = True)
