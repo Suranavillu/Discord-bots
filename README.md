@@ -1,4 +1,5 @@
 Music bot dosent have slash cmd functions yet
+
 Requirements for music bot:
 
 1] davey
